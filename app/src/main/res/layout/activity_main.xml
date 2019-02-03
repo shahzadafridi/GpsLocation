@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<pl.bclogic.pulsator4droid.library.PulsatorLayout-->
+        <!--android:id="@+id/pulsator"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:pulse_count="1"-->
+        <!--app:pulse_duration="1000"-->
+        <!--app:pulse_repeat="0"-->
+        <!--app:pulse_color="@color/colorAccent"-->
+        <!--app:pulse_startFromScratch="true"-->
+        <!--app:pulse_interpolator="Linear">-->
+    <!--</pl.bclogic.pulsator4droid.library.PulsatorLayout>-->
+
+    <Button
+        android:id="@+id/callLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OpenAddress"
+        android:text="Location"/>
+
+</android.support.constraint.ConstraintLayout>
